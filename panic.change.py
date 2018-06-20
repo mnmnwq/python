@@ -1,0 +1,15 @@
+phrase = "Don't panic!"
+plist = list(phrase)
+print(phrase)
+print(plist)
+new_plist = []
+new_plist.append(plist[1])
+new_plist.append(plist[2])
+new_plist.append(plist[5])
+new_plist.append(plist[4])
+new_plist.append(plist[7])
+new_plist.append(plist[6])
+print(new_plist)
+new_phrase = ''.join(new_plist)
+print(new_phrase)
+#print(plist)
